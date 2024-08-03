@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+header .logo-and-nav {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .dashboard {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.faq-content {
+    padding: 50px 20px;
+}
+
+.faq-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.tab-button {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.faq-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #111;
+    text-align: left;
+}
+
+.faq-section h2 {
+    margin: 0;
+}
+
+.faq-section p {
+    margin: 20px 0;
+}
+
+.faq-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq-item {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+header h1 a{
+    color:red;
+    margin:0;
+}
