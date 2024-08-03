@@ -49,6 +49,10 @@ header .client-area {
     border: none;
     cursor: pointer;
 }
+header h1 a{
+    color:red;
+    margin:0;
+}
 
 .contact-content {
     padding: 50px 20px;
