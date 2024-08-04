@@ -56,9 +56,7 @@ nav ul li a {
     justify-content: space-around;
     padding: 20px;
 }
-.container, .billingdetails {
-    margin-top: 20px;
-}
+
 
 .billingdetails, .ordersummary, .paymentmethod {
     background-color: #222;
