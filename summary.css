@@ -90,7 +90,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
-    border: 1px solid #ff3366;
+    border: 1px solid red;
     padding: 10px;
     border-radius: 5px;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .verifybutton {
-    background-color: #ff3366;
+    background-color: red;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -119,12 +119,12 @@ body {
 }
 
 .verifybutton:hover {
-    background-color: #ff6699;
+    background-color: red;
 }
 
 .completeorderbutton {
     width: 100%;
-    background-color: #ff3366;
+    background-color: red;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -135,6 +135,6 @@ body {
 }
 
 .completeorderbutton:hover {
-    background-color: #ff6699;
+    background-color:red;
 }
 
