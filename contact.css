@@ -81,7 +81,15 @@ header h1 a{
     color: #fff;
 }
 
-.contactcontent form button {
+.contactcontent form {
+    background-color: #f00;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button {
     background-color: #f00;
     color: #fff;
     padding: 15px;
