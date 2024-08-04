@@ -39,7 +39,7 @@ body {
 }
 
 .navmenu ul {
-    
+    list-style-type: none;
     padding: 0;
     width: 100%;
 }
@@ -63,7 +63,7 @@ body {
 
 
 .maincontent {
-
+    flex-grow: 1;
     background-color: #1b1b1b;
     padding: 20px;
     
