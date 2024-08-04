@@ -42,6 +42,7 @@ body {
 .labels .item {
     margin: 10px 0;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .column {
