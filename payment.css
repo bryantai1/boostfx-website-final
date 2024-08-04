@@ -57,7 +57,7 @@ nav ul li a {
     padding: 20px;
 }
 .container, .billingdetails {
-    margin-bottom: 200px;
+    margin-top: 300px;
 }
 
 .billingdetails, .ordersummary, .paymentmethod {
