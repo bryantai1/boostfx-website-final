@@ -56,15 +56,15 @@ header h1 a{
     margin:0;
 }
 
-.contact-content {
+.contactcontent {
     padding: 50px 20px;
 }
 
-.contact-content p {
+.contactcontent p {
     font-size: 1.2em;
 }
 
-.contact-content form {
+.contactcontent form {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -72,8 +72,8 @@ header h1 a{
     margin: 0 auto;
 }
 
-.contact-content form input,
-.contact-content form textarea {
+.contactcontent form input,
+.contactcontent form textarea {
     padding: 15px;
     border: 2px solid #f00;
     border-radius: 5px;
@@ -81,7 +81,7 @@ header h1 a{
     color: #fff;
 }
 
-.contact-content form button {
+.contactcontent form button {
     background-color: #f00;
     color: #fff;
     padding: 15px;
@@ -96,53 +96,53 @@ footer {
     color: #fff;
 }
 
-.footer-content {
+.footercontent {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
-.footer-logo {
+.footerlogo {
     max-width: 100px;
 }
 
-.contact-info {
+.contactinfo {
     text-align: center;
 }
 
-.footer-nav {
+.footernav {
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.footer-nav .categories,
-.footer-nav .legal,
-.footer-nav .find-us {
+.footernav .categories,
+.footernav .legal,
+.footernav .find-us {
     text-align: left;
 }
 
-.footer-nav h4 {
+.footernav h4 {
     margin-bottom: 10px;
 }
 
-.footer-nav ul {
+.footernav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.footer-nav ul li {
+.footernav ul li {
     margin-bottom: 5px;
 }
 
-.footer-nav ul li a {
+.footernav ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-.footer-nav ul li a:hover {
+.footernav ul li a:hover {
     text-decoration: underline;
 }
