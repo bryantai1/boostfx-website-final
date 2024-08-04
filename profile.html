@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BOOSTFX - Profile</title>
+    <title>BOOSFX - Profile</title>
     <link rel="stylesheet" href="mainpage.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
             </div>
             <nav class="navmenu">
                 <ul>
-                    <li><a href="mainpage.html">Overview</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="profile.html">Profile</a></li>
                     <li><a href="orders.html">Orders</a></li>
                     <li><a href="withdrawals.html">Withdrawals</a></li>
@@ -30,12 +30,41 @@
             <header class="header">
                 <div class="headerleft">
                     <h1>Profile</h1>
-                    <p>Manage your profile details.</p>
+                    <p>Manage your personal information and account settings.</p>
                 </div>
             </header>
 
             <section class="contentsection">
-                <p>This is the profile page content.</p>
+                <form class="profileform">
+                    <div class="formgroup">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" value="Michael Cofer" readonly>
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" value="michael.cofer@example.com">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter new password">
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="bio">Bio:</label>
+                        <textarea id="bio" name="bio" placeholder="Tell us something about yourself..."></textarea>
+                    </div>
+
+                    <div class="formgroup">
+                        <label for="profilepicture">Profile Picture:</label>
+                        <input type="file" id="profilepicture" name="profilepicture">
+                    </div>
+
+                    <div class="formgroup">
+                        <button type="submit" class="savebtn">Save Changes</button>
+                    </div>
+                </form>
             </section>
         </main>
     </div>
