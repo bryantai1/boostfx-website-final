@@ -56,6 +56,9 @@ nav ul li a {
     justify-content: space-around;
     padding: 20px;
 }
+.container, .billingdetails {
+    margin-top: 20px;
+}
 
 .billingdetails, .ordersummary, .paymentmethod {
     background-color: #222;
@@ -64,17 +67,7 @@ nav ul li a {
     width: 30%;
 }
 
-.billingdetails {
-    order: 1;
-}
 
-.paymentmethod {
-    order: 2;
-}
-
-.ordersummary {
-    order: 3;
-}
 
 h2 {
     color: #e60000;
