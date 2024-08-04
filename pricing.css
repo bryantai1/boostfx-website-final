@@ -15,14 +15,13 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 20px;
     padding: 0 10px;
 }
 
 .header span {
     color: #fff;
-    background-color: red;
+    background-color:red;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -30,10 +29,23 @@ body {
 .pricing-table {
     display: flex;
     
+    margin-bottom: 20px;
+}
+
+.labels {
+    width: 20%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.labels .item {
+    margin: 10px 0;
+    text-align: left;
 }
 
 .column {
-    width: 30%;
+    width: 25%;
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
@@ -57,7 +69,8 @@ body {
 }
 
 .buy-now button {
-    background-color: red;
+    background-color: red
+    ;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -67,5 +80,5 @@ body {
 }
 
 .buy-now button:hover {
-    background-color: red;
+    background-color:red;
 }
