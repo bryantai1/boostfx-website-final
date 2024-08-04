@@ -15,29 +15,27 @@ body {
 
 .header {
     display: flex;
-    
+    justify-content: space-between;
     margin-bottom: 20px;
     padding: 0 10px;
 }
 
 .header span {
     color: #fff;
-    background-color: red;
-    padding: 10 20px;
-    border-radius: 100px;
+    background-color: #ff3366;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .pricing-table {
     display: flex;
-    
-    align-items: flex-start;
-    margin-bottom: 20px;
+    justify-content: space-between;
 }
 
 .labels, .column {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .labels {
@@ -50,6 +48,7 @@ body {
 .labels .item {
     margin: 10px 0;
     text-align: left;
+    font-weight: bold;
 }
 
 .column {
@@ -61,11 +60,12 @@ body {
 }
 
 .title {
-    background-color: red;
+    background-color: #ff3366;
     padding: 10px;
     border-radius: 5px;
     font-size: 1.5em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .item {
@@ -77,7 +77,7 @@ body {
 }
 
 .buy-now button {
-    background-color: red;
+    background-color: #ff3366;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -87,6 +87,7 @@ body {
 }
 
 .buy-now button:hover {
-    background-color:red;
+    background-color: #ff6699;
 }
+
 
