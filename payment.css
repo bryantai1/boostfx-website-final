@@ -51,11 +51,29 @@ nav ul li a {
     text-decoration: none;
 }
 
-.billing-details, .order-summary, .payment-method {
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.billingdetails, .ordersummary, .paymentmethod {
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
     width: 30%;
+}
+
+.billingdetails {
+    order: 1;
+}
+
+.paymentmethod {
+    order: 2;
+}
+
+.ordersummary {
+    order: 3;
 }
 
 h2 {
@@ -103,12 +121,12 @@ button:hover {
     margin: 10px 0;
 }
 
-.order-details {
+.orderdetails {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
 
-.order-details p {
+.orderdetails p {
     margin: 0;
 }
