@@ -36,7 +36,14 @@
         <input type="text" name="account" placeholder="Trading Account Number">
         <input type="text" name="subject" placeholder="Subject">
         <textarea name="description" placeholder="Description"></textarea>
-        <button> <a href=submit.html></a>Submit</button>
+        <button id="sendButton">Send</button>
+        <div id="thankyoumessage">Thank you for your message. It has been sent.</div>
+    
+        <script>
+            document.getElementById('sendButton').addEventListener('click', function() {
+                document.getElementById('thankYouMessage').style.display = 'block';
+            });
+        </script>
         
     </form>
     

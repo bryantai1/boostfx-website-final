@@ -146,3 +146,11 @@ footer {
 .footernav ul li a:hover {
     text-decoration: underline;
 }
+#thankyoumessage {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid green;
+    color: green;
+    padding: 10px;
+    text-align: center;
+}
