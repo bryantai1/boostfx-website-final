@@ -61,7 +61,7 @@ body {
 }
 
 .ordersummary {
-    border: 1px solid #ff3366;
+    border: 1px solid red;
     padding: 20px;
     border-radius: 10px;
     background-color: #111;
