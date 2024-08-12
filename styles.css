@@ -51,7 +51,7 @@ nav ul li a {
     margin-right: 50px;
 }
 
-.hero {
+.section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,18 +59,18 @@ nav ul li a {
     background-color: #000;
 }
 
-.hero-content {
+.sectioncontent {
     max-width: 50%;
 }
 
-.hero-content h2 {
+.sectioncontent h2 {
     font-size: 3em;
     margin: 0 0 20px 0;
     color: #fff;
 }
 
-.cta-button,
-.cta-button-secondary {
+.ctabutton,
+.ctabutton-secondary {
     display: inline-block;
     padding: 10px 20px;
     margin-right: 10px;
@@ -80,26 +80,19 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.cta-button-secondary {
+.ctabutton-secondary {
     background-color: transparent;
     border: 2px solid #ff0000;
 }
 
-.hero-content p {
+.sectioncontent p {
     font-size: 1.2em;
     margin-top: 20px;
 }
 
-.hero-image img {
-    max-width: 100%;
-    height: auto;
-}
 
-.offer-banner {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
-}
+
+
 
 .offer-banner p {
     margin: 10px 0;
